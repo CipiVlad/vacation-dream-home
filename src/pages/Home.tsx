@@ -1,3 +1,4 @@
+import AboutUs from "../components/AboutUs"
 import HeroHeadLine from "../components/HeroHeadLine"
 
 const Home = () => {
@@ -5,6 +6,7 @@ const Home = () => {
 
         <>
             <HeroHeadLine />
+            <AboutUs />
         </>
     )
 }
